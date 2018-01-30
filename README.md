@@ -1,5 +1,23 @@
 # Ansible Role Icescrum
 
+This Ansible role installs and configures Icescrum (Official website: https://www.icescrum.com/).
+
+## Table of contents
+* [Prerequisites](#Prerequisites)
+* [Usage](#Usage)
+* [Example Playbook](#Example Playbook)
+* [Main variables](#Main variables)
+	* [Mandatory](#Mandatory)
+	* [Recommended](#Recommended)
+	* [Optionnal](#Optionnal)
+* [Mail variables](#Mail variables)
+* [Proxy server](#Proxy server)
+* [LDAP variables](#LDAP variables)
+* [Project variables](#Project variables)
+* [Users variables](#Users variables)
+* [Alerts variables](#Alerts variables)
+* [Catalina options](#Catalina options)
+
 ## Prerequisites
 
 * java 7, java 8 is recommended for Icescrum v7
